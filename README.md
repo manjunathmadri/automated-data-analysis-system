@@ -163,4 +163,16 @@ This project demonstrates understanding of:
 
 ---
 
-⭐ *This project is part of my learning journey in Data Engineering and Backend Development.*
+## 📊 Dashboard Preview
+
+### Main Dashboard
+![Dashboard](dashboard_snaps/dashboard.png)
+
+### Products View
+![Products](dashboard_snaps/product.png)
+
+### Orders View
+![Orders](dashboard_snaps/order.png)
+
+### Users View
+![Users](dashboard_snaps/user.png)
