@@ -1,0 +1,12 @@
+2026-03-02 17:58:35,269 - ERROR - 1146 (42S02): Table 'automated_db.users' doesn't exist
+2026-03-02 18:01:13,954 - ERROR - 1146 (42S02): Table 'automated_db.users' doesn't exist
+2026-03-02 18:02:19,591 - ERROR - 1146 (42S02): Table 'automated_db.users' doesn't exist
+2026-03-02 18:04:19,680 - INFO - User created: manjunathmadri@gmail.com
+2026-03-02 18:04:19,700 - INFO - Order created for user 1
+2026-03-02 18:04:19,712 - INFO - Sales report generated
+2026-03-02 19:23:39,359 - ERROR - 1062 (23000): Duplicate entry 'manjunathmadri@gmail.com' for key 'users.email'
+2026-03-02 19:23:39,411 - INFO - Order created for user 1
+2026-03-02 19:23:39,454 - INFO - Sales report generated
+2026-03-02 19:54:51,766 - ERROR - 1062 (23000): Duplicate entry 'manjunathmadri@gmail.com' for key 'users.email'
+2026-03-02 19:54:51,787 - INFO - Order created for user 1
+2026-03-02 19:54:51,797 - INFO - Sales report generated
