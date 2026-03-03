@@ -93,23 +93,25 @@ AUTOMATED DATA ANALYSIS SYSTEM
 - Top customer detection
 - Timestamp included
 
----
-
-## 📊 Dashboard Preview
+## 📸 Dashboard Preview
 
 ### 🏠 Main Dashboard
-![Dashboard](DASHBOARD_SNAPS/dashboard.png)
-
-### 🛒 Orders View
-![Orders](DASHBOARD_SNAPS/order.png)
-
-### 📦 Products View
-![Products](DASHBOARD_SNAPS/product.png)
-
-### 👤 Users View
-![Users](DASHBOARD_SNAPS/user.png)
+![Main Dashboard](screenshots/dashboard.png)
 
 ---
+
+### 🛒 Orders View
+![Orders View](screenshots/orders.png)
+
+---
+
+### 📦 Products View
+![Products View](screenshots/products.png)
+
+---
+
+### 👤 Users View
+![Users View](screenshots/users.png)
 
 ## ⚙️ Setup Instructions
 
@@ -229,7 +231,7 @@ It creates a professional PDF inside `/outputs`.
 
 ## 👨‍💻 Author
 
-Manjunath Madari 
+Manjunath 
 Final Year CS&E Student  
 Aspiring Data Analyst & ML Engineer
 
