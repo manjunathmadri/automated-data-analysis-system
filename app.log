@@ -10,3 +10,15 @@
 2026-03-02 19:54:51,766 - ERROR - 1062 (23000): Duplicate entry 'manjunathmadri@gmail.com' for key 'users.email'
 2026-03-02 19:54:51,787 - INFO - Order created for user 1
 2026-03-02 19:54:51,797 - INFO - Sales report generated
+2026-03-03 17:10:16,858 - ERROR - 1062 (23000): Duplicate entry 'manjunathmadri@gmail.com' for key 'users.email'
+2026-03-03 17:10:16,888 - INFO - Order created for user 1
+2026-03-03 17:10:16,902 - INFO - Sales report generated
+2026-03-03 17:19:06,363 - ERROR - 1062 (23000): Duplicate entry 'manjunathmadri@gmail.com' for key 'users.email'
+2026-03-03 17:19:06,389 - INFO - Order created for user 1
+2026-03-03 17:19:06,400 - INFO - Sales report generated
+2026-03-03 17:28:41,535 - ERROR - 1062 (23000): Duplicate entry 'manjunathmadri@gmail.com' for key 'users.email'
+2026-03-03 17:28:41,551 - INFO - Order created for user 1
+2026-03-03 17:28:41,560 - INFO - Sales report generated
+2026-03-03 17:36:05,139 - ERROR - 1062 (23000): Duplicate entry 'manjunathmadri@gmail.com' for key 'users.email'
+2026-03-03 17:36:05,157 - INFO - Order created for user 1
+2026-03-03 17:36:05,166 - INFO - Sales report generated

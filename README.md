@@ -1,178 +1,156 @@
 # 📊 Automated Data Analysis System
 
-A Python-based automated data processing system that loads datasets, stores them in a database, analyzes them, and displays results through reports and an interactive dashboard.
+An End-to-End Automated Data Analysis System built using:
+
+- Python
+- MySQL
+- Streamlit
+- ReportLab (PDF Generation)
+- Matplotlib (Charts)
 
 ---
 
 ## 🚀 Project Overview
 
-This project demonstrates a complete **data pipeline workflow**:
+This project loads CSV data into MySQL, performs data analysis, generates reports, and provides an interactive dashboard with downloadable professional PDF reports.
 
-CSV Data → Database Storage → Analysis → Reports → Dashboard Visualization
-
-It is designed to simulate a real-world analytics system used in companies.
+It simulates a real-world e-commerce analytics workflow.
 
 ---
 
-## ✅ Features Implemented
+## ✨ Features
 
-✔ CSV data import into database
-✔ MySQL database integration
-✔ Modular service architecture
-✔ Automated report generation
-✔ Logging system
-✔ Streamlit dashboard interface
-✔ Clean project folder structure
+### 📂 Data Management
+- Load CSV data into MySQL
+- Structured relational database (Users, Products, Orders)
 
----
+### 📊 Dashboard (Streamlit)
+- Interactive metrics
+- Orders table view
+- Sales by user chart
+- Real-time data visualization
 
-## 📁 Project Structure
-
-```
-Automated Data analysis system/
-│
-├── config/          # DB connection settings
-├── Data/            # Input CSV datasets
-├── models/          # SQL schema
-├── services/        # Business logic modules
-├── utils/           # Helper functions
-│
-├── load_data.py     # CSV → Database loader
-├── dashboard.py     # Streamlit dashboard
-├── main.py          # Main execution script
-├── requirements.txt
-└── README.md
-```
-
----
-
-## ⚙️ Installation & Run
-
-### 1️⃣ Create virtual environment
-
-```
-python -m venv venv
-```
-
-Activate:
-
-```
-venv\Scripts\activate
-```
-
----
-
-### 2️⃣ Install libraries
-
-```
-pip install -r requirements.txt
-```
-
----
-
-### 3️⃣ Create Database
-
-Open MySQL and run:
-
-```
-CREATE DATABASE automated_analysis;
-```
-
-Then execute:
-
-```
-models/schema.sql
-```
-
----
-
-### 4️⃣ Load Dataset
-
-```
-python load_data.py
-```
-
----
-
-### 5️⃣ Run Analysis
-
-```
-python main.py
-```
-
----
-
-### 6️⃣ Launch Dashboard
-
-```
-streamlit run dashboard.py
-```
-
-Open browser:
-
-```
-http://localhost:8501
-```
-
----
-
-## 📊 Sample Output
-
-Example report result:
-
-```
-Total Sales : 4500
-Total Orders: 15
-```
-
----
-
-## 🧠 Tech Stack
-
-* Python
-* MySQL
-* Pandas
-* Streamlit
-
----
-
-## 🎯 Learning Outcomes
-
-This project demonstrates understanding of:
-
-* Database integration
-* Data pipelines
-* Modular coding design
-* Reporting systems
-* Dashboard visualization
-
----
-
-## 👨‍💻 Author
-
-**Manjunath**
-
----
-
-## 🔮 Future Improvements
-
-* Charts and graphs
-* API integration
-* Authentication system
-* Cloud deployment
+### 📄 Professional PDF Report
+- Auto-generated multi-page PDF
+- Summary section
+- Styled table
+- Bar chart
+- Pie chart
+- Top customer detection
+- Timestamp included
+- Downloadable directly from dashboard
 
 ---
 
 ## 📊 Dashboard Preview
 
-### Main Dashboard
-![Dashboard](dashboard_snaps/dashboard.png)
+### 🏠 Main Dashboard
+![Dashboard](DARSHBOARD_SNAPS/dashboard.png)
 
-### Products View
-![Products](dashboard_snaps/product.png)
+### 📦 Products View
+![Products](DARSHBOARD_SNAPS/product.png)
 
-### Orders View
-![Orders](dashboard_snaps/order.png)
+### 🛒 Orders View
+![Orders](DARSHBOARD_SNAPS/order.png)
 
-### Users View
-![Users](dashboard_snaps/user.png)
+### 👤 Users View
+![Users](DARSHBOARD_SNAPS/user.png)
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone Repository
+
+```bash
+git clone <your-repo-link>
+cd automated-data-analysis-system
+```
+
+### 2️⃣ Create Virtual Environment
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+### 3️⃣ Install Requirements
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 🗄️ Setup MySQL Database
+
+1. Create database:
+
+```sql
+CREATE DATABASE automated_analysis;
+```
+
+2. Update database credentials in:
+
+```
+config/db_config.py
+```
+
+---
+
+## ▶️ Run Project
+
+### Run Backend Script
+
+```bash
+python main.py
+```
+
+### Run Streamlit Dashboard
+
+```bash
+streamlit run app.py
+```
+
+---
+
+## 📥 Download Report
+
+Inside the dashboard:
+
+Click  
+👉 **Generate & Download Report**
+
+It generates a professional multi-page PDF with charts and summary.
+
+---
+
+## 💼 Skills Demonstrated
+
+- Python Backend Development
+- MySQL Database Integration
+- Data Analysis & Aggregation
+- Report Automation
+- PDF Generation
+- Data Visualization
+- Dashboard Development
+- End-to-End Project Architecture
+
+---
+
+## 🔥 Future Improvements
+
+- User authentication
+- Date filtering
+- CSV upload from dashboard
+- Email automated report
+- Deployment on Streamlit Cloud
+- Role-based access
+
+---
+
+## 👨‍💻 Author
+
+Manjunath Madari 
+Final Year CS&E Student  
+Aspiring Data Analyst & ML Engineer
+
+---
